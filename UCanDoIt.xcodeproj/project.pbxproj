@@ -19,9 +19,24 @@
 		326F615E237A823600928452 /* initialBG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 326F615D237A823500928452 /* initialBG.wav */; };
 		326F6160237A857800928452 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 326F615F237A857800928452 /* click.wav */; };
 		326F6162237A884600928452 /* lady_guitar.json in Resources */ = {isa = PBXBuildFile; fileRef = 326F6161237A884600928452 /* lady_guitar.json */; };
+		32A7CF5D237DA97A004CC975 /* GamePadCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7CF5B237DA97A004CC975 /* GamePadCVC.swift */; };
+		32A7CF5E237DA97A004CC975 /* GamePadCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A7CF5C237DA97A004CC975 /* GamePadCVC.xib */; };
+		32A7CF60237DA9DD004CC975 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7CF5F237DA9DC004CC975 /* ShadowView.swift */; };
+		32A7CF62237DABAC004CC975 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7CF61237DABAC004CC975 /* AppConstants.swift */; };
 		32C44F6F237A897C00DE2581 /* LevelSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C44F6E237A897C00DE2581 /* LevelSelectVC.swift */; };
-		32C44F75237A8F0E00DE2581 /* level_background.json in Resources */ = {isa = PBXBuildFile; fileRef = 32C44F74237A8F0E00DE2581 /* level_background.json */; };
 		32C44F77237A90E400DE2581 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C44F76237A90E400DE2581 /* GameVC.swift */; };
+		32D100BD237DB9D100DA25D0 /* beat.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100BC237DB9D100DA25D0 /* beat.json */; };
+		32D100BF237DC10600DA25D0 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100BE237DC10600DA25D0 /* 1.json */; };
+		32D100C1237DC15C00DA25D0 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100C0237DC15C00DA25D0 /* 2.json */; };
+		32D100C3237DC17D00DA25D0 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100C2237DC17C00DA25D0 /* 3.json */; };
+		32D100C5237DC19B00DA25D0 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100C4237DC19B00DA25D0 /* 4.json */; };
+		32D100C7237DC1B800DA25D0 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100C6237DC1B800DA25D0 /* 5.json */; };
+		32D100C9237DC1E300DA25D0 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100C8237DC1E300DA25D0 /* 6.json */; };
+		32D100CB237DC21700DA25D0 /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100CA237DC21600DA25D0 /* 7.json */; };
+		32D100CD237DC24500DA25D0 /* 8.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100CC237DC24500DA25D0 /* 8.json */; };
+		32D100CF237DC26400DA25D0 /* 9.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100CE237DC26400DA25D0 /* 9.json */; };
+		32D100D1237DC28700DA25D0 /* 10.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100D0237DC28700DA25D0 /* 10.json */; };
+		32D100D3237DC34900DA25D0 /* level_background.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D100D2237DC34900DA25D0 /* level_background.json */; };
 		975E376EE553F2B6C388C6C8 /* Pods_UCanDoIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27C4BF95A529A858951AD06 /* Pods_UCanDoIt.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,9 +56,24 @@
 		326F615D237A823500928452 /* initialBG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = initialBG.wav; sourceTree = "<group>"; };
 		326F615F237A857800928452 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		326F6161237A884600928452 /* lady_guitar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lady_guitar.json; sourceTree = "<group>"; };
+		32A7CF5B237DA97A004CC975 /* GamePadCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePadCVC.swift; sourceTree = "<group>"; };
+		32A7CF5C237DA97A004CC975 /* GamePadCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GamePadCVC.xib; sourceTree = "<group>"; };
+		32A7CF5F237DA9DC004CC975 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		32A7CF61237DABAC004CC975 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		32C44F6E237A897C00DE2581 /* LevelSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectVC.swift; sourceTree = "<group>"; };
-		32C44F74237A8F0E00DE2581 /* level_background.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = level_background.json; sourceTree = "<group>"; };
 		32C44F76237A90E400DE2581 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		32D100BC237DB9D100DA25D0 /* beat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = beat.json; sourceTree = "<group>"; };
+		32D100BE237DC10600DA25D0 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		32D100C0237DC15C00DA25D0 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		32D100C2237DC17C00DA25D0 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		32D100C4237DC19B00DA25D0 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		32D100C6237DC1B800DA25D0 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
+		32D100C8237DC1E300DA25D0 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
+		32D100CA237DC21600DA25D0 /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7.json; sourceTree = "<group>"; };
+		32D100CC237DC24500DA25D0 /* 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 8.json; sourceTree = "<group>"; };
+		32D100CE237DC26400DA25D0 /* 9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9.json; sourceTree = "<group>"; };
+		32D100D0237DC28700DA25D0 /* 10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10.json; sourceTree = "<group>"; };
+		32D100D2237DC34900DA25D0 /* level_background.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = level_background.json; sourceTree = "<group>"; };
 		A2E0768839876B89EA7D895A /* Pods-UCanDoIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCanDoIt.debug.xcconfig"; path = "Target Support Files/Pods-UCanDoIt/Pods-UCanDoIt.debug.xcconfig"; sourceTree = "<group>"; };
 		E27C4BF95A529A858951AD06 /* Pods_UCanDoIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCanDoIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,6 +119,7 @@
 		326F613E2379D34900928452 /* UCanDoIt */ = {
 			isa = PBXGroup;
 			children = (
+				32A7CF5A237DA88F004CC975 /* UICollectionViewCell */,
 				326F61562379DE3C00928452 /* Resources */,
 				326F613F2379D34900928452 /* AppDelegate.swift */,
 				326F61412379D34900928452 /* SceneDelegate.swift */,
@@ -96,11 +127,13 @@
 				32C44F6E237A897C00DE2581 /* LevelSelectVC.swift */,
 				32C44F76237A90E400DE2581 /* GameVC.swift */,
 				326F615A237A7E7200928452 /* AudioManager.swift */,
+				32A7CF5F237DA9DC004CC975 /* ShadowView.swift */,
 				326F61452379D34900928452 /* Main.storyboard */,
 				326F614B2379D34F00928452 /* Assets.xcassets */,
 				326F614D2379D34F00928452 /* LaunchScreen.storyboard */,
 				326F61502379D34F00928452 /* Info.plist */,
 				326F61482379D34900928452 /* UCanDoIt.xcdatamodeld */,
+				32A7CF61237DABAC004CC975 /* AppConstants.swift */,
 			);
 			path = UCanDoIt;
 			sourceTree = "<group>";
@@ -117,9 +150,20 @@
 		326F61572379DE4500928452 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				32D100D2237DC34900DA25D0 /* level_background.json */,
+				32D100BE237DC10600DA25D0 /* 1.json */,
 				326F61582379DE5100928452 /* play_button.json */,
 				326F6161237A884600928452 /* lady_guitar.json */,
-				32C44F74237A8F0E00DE2581 /* level_background.json */,
+				32D100BC237DB9D100DA25D0 /* beat.json */,
+				32D100C0237DC15C00DA25D0 /* 2.json */,
+				32D100C2237DC17C00DA25D0 /* 3.json */,
+				32D100C4237DC19B00DA25D0 /* 4.json */,
+				32D100C6237DC1B800DA25D0 /* 5.json */,
+				32D100C8237DC1E300DA25D0 /* 6.json */,
+				32D100CA237DC21600DA25D0 /* 7.json */,
+				32D100CC237DC24500DA25D0 /* 8.json */,
+				32D100CE237DC26400DA25D0 /* 9.json */,
+				32D100D0237DC28700DA25D0 /* 10.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -131,6 +175,15 @@
 				326F615D237A823500928452 /* initialBG.wav */,
 			);
 			path = Audio;
+			sourceTree = "<group>";
+		};
+		32A7CF5A237DA88F004CC975 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				32A7CF5B237DA97A004CC975 /* GamePadCVC.swift */,
+				32A7CF5C237DA97A004CC975 /* GamePadCVC.xib */,
+			);
+			path = UICollectionViewCell;
 			sourceTree = "<group>";
 		};
 		386DFEF91BFEFAB0F6911328 /* Pods */ = {
@@ -202,14 +255,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D100C3237DC17D00DA25D0 /* 3.json in Resources */,
 				326F614F2379D34F00928452 /* LaunchScreen.storyboard in Resources */,
+				32D100C5237DC19B00DA25D0 /* 4.json in Resources */,
 				326F615E237A823600928452 /* initialBG.wav in Resources */,
+				32D100D3237DC34900DA25D0 /* level_background.json in Resources */,
+				32D100C9237DC1E300DA25D0 /* 6.json in Resources */,
 				326F6162237A884600928452 /* lady_guitar.json in Resources */,
+				32D100C7237DC1B800DA25D0 /* 5.json in Resources */,
 				326F614C2379D34F00928452 /* Assets.xcassets in Resources */,
-				32C44F75237A8F0E00DE2581 /* level_background.json in Resources */,
+				32D100CD237DC24500DA25D0 /* 8.json in Resources */,
+				32D100BF237DC10600DA25D0 /* 1.json in Resources */,
+				32D100CF237DC26400DA25D0 /* 9.json in Resources */,
+				32D100D1237DC28700DA25D0 /* 10.json in Resources */,
+				32D100CB237DC21700DA25D0 /* 7.json in Resources */,
+				32D100BD237DB9D100DA25D0 /* beat.json in Resources */,
 				326F6160237A857800928452 /* click.wav in Resources */,
+				32D100C1237DC15C00DA25D0 /* 2.json in Resources */,
 				326F61472379D34900928452 /* Main.storyboard in Resources */,
 				326F61592379DE5100928452 /* play_button.json in Resources */,
+				32A7CF5E237DA97A004CC975 /* GamePadCVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,13 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A7CF60237DA9DD004CC975 /* ShadowView.swift in Sources */,
 				326F614A2379D34900928452 /* UCanDoIt.xcdatamodeld in Sources */,
 				326F61442379D34900928452 /* ViewController.swift in Sources */,
 				326F61402379D34900928452 /* AppDelegate.swift in Sources */,
 				32C44F6F237A897C00DE2581 /* LevelSelectVC.swift in Sources */,
 				32C44F77237A90E400DE2581 /* GameVC.swift in Sources */,
 				326F615B237A7E7200928452 /* AudioManager.swift in Sources */,
+				32A7CF5D237DA97A004CC975 /* GamePadCVC.swift in Sources */,
 				326F61422379D34900928452 /* SceneDelegate.swift in Sources */,
+				32A7CF62237DABAC004CC975 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
