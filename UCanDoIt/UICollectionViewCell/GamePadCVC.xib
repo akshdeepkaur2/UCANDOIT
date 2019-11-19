@@ -28,12 +28,19 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKj-XS-yo7">
+                                <rect key="frame" x="0.0" y="0.0" width="249" height="236"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="rKj-XS-yo7" firstAttribute="top" secondItem="cfm-nh-EPM" secondAttribute="top" id="3WA-eQ-AOF"/>
                             <constraint firstItem="bt3-Jb-W5D" firstAttribute="leading" secondItem="cfm-nh-EPM" secondAttribute="leading" id="Bq3-hd-iod"/>
+                            <constraint firstAttribute="bottom" secondItem="rKj-XS-yo7" secondAttribute="bottom" id="JtG-RU-lec"/>
                             <constraint firstItem="bt3-Jb-W5D" firstAttribute="top" secondItem="cfm-nh-EPM" secondAttribute="top" id="cbQ-TA-gDm"/>
                             <constraint firstAttribute="bottom" secondItem="bt3-Jb-W5D" secondAttribute="bottom" id="fCz-l5-4nQ"/>
+                            <constraint firstAttribute="trailing" secondItem="rKj-XS-yo7" secondAttribute="trailing" id="gLh-GG-zjj"/>
+                            <constraint firstItem="rKj-XS-yo7" firstAttribute="leading" secondItem="cfm-nh-EPM" secondAttribute="leading" id="pBb-Zf-O6J"/>
                             <constraint firstAttribute="trailing" secondItem="bt3-Jb-W5D" secondAttribute="trailing" id="pRl-75-REk"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
@@ -53,6 +60,7 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="259" height="246"/>
             <connections>
+                <outlet property="btnSelectPad" destination="rKj-XS-yo7" id="ICZ-rJ-VSu"/>
                 <outlet property="shadowView" destination="cfm-nh-EPM" id="oGP-3g-wsz"/>
             </connections>
             <point key="canvasLocation" x="289.13043478260875" y="199.55357142857142"/>

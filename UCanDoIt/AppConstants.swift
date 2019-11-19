@@ -34,3 +34,10 @@ struct DeviceType {
     static let IS_IPAD              = UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1024.0
     static let IS_IPAD_PRO          = UIDevice.current.userInterfaceIdiom == .pad && ScreenSize.SCREEN_MAX_LENGTH == 1366.0
 }
+
+
+enum GameLevels {
+    case Easy
+    case Medium
+    case Hard
+}

@@ -10,7 +10,7 @@ import UIKit
 import Lottie
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var playAnimationView : AnimationView!
     
     override func viewDidLoad() {
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         AudioManager.shared.clickMusic()
     }
-
-
+    
+    
 }
 

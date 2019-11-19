@@ -11,11 +11,8 @@ import Lottie
 
 //MARK: -
 class LevelSelectVC: UIViewController {
-
+    
     @IBOutlet weak var ladyAnimationView : AnimationView!
-    @IBOutlet weak var easyAnimationView : AnimationView!
-    @IBOutlet weak var mediumAnimationView : AnimationView!
-    @IBOutlet weak var hardAnimationView : AnimationView!
     
     //MARK: -
     override func viewDidLoad() {
@@ -28,22 +25,11 @@ class LevelSelectVC: UIViewController {
         ladyAnimationView.backgroundBehavior = .pauseAndRestore
         ladyAnimationView.loopMode = .loop
         ladyAnimationView.play()
-        
-        easyAnimationView.backgroundBehavior = .pauseAndRestore
-        easyAnimationView.loopMode = .loop
-        easyAnimationView.play()
-        
-        mediumAnimationView.backgroundBehavior = .pauseAndRestore
-        mediumAnimationView.loopMode = .loop
-        mediumAnimationView.play()
-        
-        hardAnimationView.backgroundBehavior = .pauseAndRestore
-        hardAnimationView.loopMode = .loop
-        hardAnimationView.play()
     }
     
-    func startGame(){
+    func startGame(_ level: GameLevels){
         let gameObj = self.storyboard?.instantiateViewController(withIdentifier: "GameVC") as! GameVC
+        gameObj.gameLevel = level
         self.navigationController?.pushViewController(gameObj, animated: true)
     }
     
@@ -53,17 +39,17 @@ class LevelSelectVC: UIViewController {
     
     @IBAction func easyLevelAction(_ sender: UIButton){
         AudioManager.shared.clickMusic()
-        self.startGame()
+        self.startGame(.Easy)
     }
     
     @IBAction func mediumLevelAction(_ sender: UIButton){
         AudioManager.shared.clickMusic()
-        self.startGame()
+        self.startGame(.Medium)
     }
     
     @IBAction func hardLevelAction(_ sender: UIButton){
         AudioManager.shared.clickMusic()
-        self.startGame()
+        self.startGame(.Hard)
     }
     
     @IBAction func backAction(_ sender: UIButton){
